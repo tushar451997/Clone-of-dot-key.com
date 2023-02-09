@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.logintag{
+    font-size: 26px;
+    color: rgb(105, 104, 104);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 70px 0;
+}
+.facebook,
+.google,
+form
+{
+    width: 28vw;
+    margin: auto;
+}
+
+.facebook span,
+.google span{
+    display: flex;
+    background-color: rgb(74, 74, 200);
+    color: rgb(246, 242, 242);
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.google{
+    margin-top: 10px;
+}
+.google span{
+    background-color: rgb(227, 23, 23);
+}
+.facebook span p,
+.google span p
+{
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+}
+.facebook span i,
+.google span i
+{
+    
+    font-size: 22px;
+}
+
+.email,.password{
+    display: grid;
+    
+}
+input,button{
+    height: 45px;
+    border: 1px solid silver;
+}
+button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(88, 88, 88);
+   font-size: 15px;
+}
+.password label{
+    display: flex;
+    justify-content: space-between
+}
+.password label span{
+    font-weight: 100;
+    color: black;
+}
+
+button{
+    width: 100%;
+}
+.notaccount{
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
