@@ -82,6 +82,9 @@ header .top-section .textslider p:nth-child(2n+2){
 .closemenu-icon div:first-child{
    transform: rotate(40deg);
 }
+.closemenu-icon div:nth-child(2){
+  width: 0px;
+}
 .closemenu-icon div:last-child{
     transform: rotate(-40deg);
  }
