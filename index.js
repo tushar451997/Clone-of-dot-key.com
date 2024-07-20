@@ -194,6 +194,7 @@ const appendImage=()=>{
 data.map((elem)=>{
     let img=document.createElement("img");
     img.src=elem.img;
+    img.style.height="100%"
     slidercontainer.appendChild(img)
 })
 };
@@ -270,6 +271,7 @@ const appendImage=()=>{
 data.map((elem)=>{
     let img=document.createElement("img");
     img.src=elem.img;
+    img.style.height="100%"
     slidercontainer.appendChild(img)
 })
 };
@@ -342,7 +344,6 @@ const shopBynewarrivel=()=>{
 
       let btn=document.createElement("button");
       btn.addEventListener("click",()=>{
-        console.log(elem)
       })
       btn.innerText="ADD TO CART";
       div.append(img,span,title,pricediv,btn)
@@ -497,7 +498,7 @@ const shopBybestseller=()=>{
 
       let btn=document.createElement("button");
       btn.addEventListener("click",()=>{
-        console.log(elem)
+
       })
       btn.innerText="ADD TO CART";
       div.append(img,span,title,pricediv,btn)
@@ -634,7 +635,7 @@ const shopBytopcategory=()=>{
 
       let btn=document.createElement("button");
       btn.addEventListener("click",()=>{
-        console.log(elem)
+
       })
       btn.innerText="ADD TO CART";
       div.append(img,rating,title,pricediv,btn)
@@ -734,14 +735,14 @@ const awardWinning=()=>{
   conatiner.style.transform=`translateX(-${(33.5*count)}%)`;
  }
  left.addEventListener("click",()=>{
-  console.log("left")
+
   count--;
  changeStyle()
  })
 
  right.addEventListener("click",()=>{
   count++;
-  console.log("right")
+
   changeStyle()
 
  })
@@ -931,7 +932,7 @@ let alsoavailableon=document.getElementById("also-availableon");
 
 
 availableonsection.addEventListener("click",()=>{
-  console.log("hii")
+
   if(alsoavailableon.classList.value==="availableon-hide"){
     alsoavailableon.classList.add("show-getusknowsection")
     alsoavailableon.classList.remove("availableon-hide")
@@ -948,4 +949,5 @@ availableonsection.addEventListener("click",()=>{
   })
 
 
-  console.log(window.location.pathname)
+
+  
